@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+    "name": "Yung Youtube ADS blocker",
+    "decription": "this is used to block youtube ads, created by yung",
+    "version": "1.0",
+    "content_scripts":[{
+        "js": ["scripts.js"],
+        "run_at": "document_idle",
+        "matches": ["<all_urs>"]
+    }],
+    "permissions": [
+        "tabs",
+        "activeTab"
+    ]
+}
