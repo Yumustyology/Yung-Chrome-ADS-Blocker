@@ -1,4 +1,4 @@
-let firstInterval = setInterval(() => {
+let firstInterval = setnterval(() => {
   let skipButton1 = document.getElementsByClassName("ytp-ad-skip-button");
   let skipButton2 = document.getElementsByClassName(
     "ytp-ad-skip-button-modern ytp-button"
