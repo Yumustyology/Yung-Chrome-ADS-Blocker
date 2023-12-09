@@ -1,4 +1,4 @@
-const skipBtinClick = ()=>{
+const skipBtnClick = ()=>{
   let skipButton1 = document.getElementsByClassName("ytp-ad-skip-button");
   let skipButton2 = document.getElementsByClassName(
     "ytp-ad-skip-button-modern ytp-button"
@@ -14,13 +14,13 @@ const skipBtinClick = ()=>{
 
 
 let firstInterval = setInterval(() => {
-  skipBtinClick()
-}, 100);
+  skipBtnClick()
+}, 20);
 
 setTimeout(() => {
   clearInterval(firstInterval);
-}, 2000);
+}, 1500);
 
 setInterval(() => {
-  skipBtinClick()
+  skipBtnClick()
 }, 3000);
